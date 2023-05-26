@@ -17,7 +17,6 @@ GAPPS_FORCE_BROWSER_OVERRIDES := true
 GAPPS_FORCE_WEBVIEW_OVERRIDES := true
 
 GAPPS_PRODUCT_PACKAGES += \
-    GoogleCamera \
     PrebuiltExchange3Google \
     PrebuiltGmail \
     Maps \
