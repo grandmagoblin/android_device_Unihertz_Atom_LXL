@@ -30060,5 +30060,17 @@
       bearer_bitmask="14"
   />
   <!-- AGold zhengzhibin 2020.04.27 end -->
+  
+  
+    <apn carrier="Mint"
+      apn="Wholesale"
+      mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+      mmsport="8080"
+      mcc="310"
+      mnc="260"
+      type="default,supl,mms,ia"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4"
+  />
 
 </apns>
