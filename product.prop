@@ -9,24 +9,34 @@ persist.data.iwlan.enable=true
 persist.data.iwlan=1
 persist.data.iwlan.ipsec.ap=1
 
+#IMS Settings
+persist.ims_support=1
+
 # Radio Options
-persist.radio.volte.dan_support=true
 persist.radio.rat_on=combine
 persist.radio.data_ltd_sys_ind=1
 persist.radio.data_con_rprt=1
 persist.radio.calls.on.ims=1
-persist.radio.VT_ENABLE=1
+
+#Vendor Support
+persist.vendor.vilte_support=1
+persist.vendor.viwifi_support=1
+persist.vendor.volte_support=1
+persist.vendor.ims_support=1
+persist.vendor.radio.ims.pdn.notify=3
 
 # Other Options
 persist.sys.cust.lte_config=true
 persist.rcs.supported=1
-
 telephony.lteOnCdmaDevice=1
 
+#Instant Ring
+ro.telephony.call_ring.delay=0
+ring.delay=0
+
+#Unknown Settings
 ro.LED_KEYLIGHT_TEST=yes
-
 ro.agui.single.mic=yes
-
 ro.LED_COLOR_TEST=yes
 ro.low_battery_led=yes
 ro.battery_charging_led=yes
@@ -36,5 +46,7 @@ ro.unread_notifi_ledcolor=Red
 ro.incoming_ledcolor=Blue
 ro.scridle_ledcolor=None
 
+#Bluetooth Settings
 persist.bluetooth.a2dp_offload.disabled=true
 persist.bluetooth.bluetooth_audio_hal.disabled=true
+
